@@ -2,4 +2,4 @@
 
 [Home](https://eleventhirty.github.io/ixdgrads/)
 
-[Christine](https://eleventhirty.github.io/ixdgrads/christine.html
+[Christine](https://eleventhirty.github.io/ixdgrads/christine.html)
