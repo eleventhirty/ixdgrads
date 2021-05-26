@@ -224,21 +224,18 @@ img {
   margin: auto; 
   max-width: 100%; }
 
+.biocolour {padding: 3em 0}
+
 .bio {
-  width: 100vw;
-  background:#107ed6;
   display: flex; 
   flex-flow: row-reverse; 
 }
 .content{
       flex: 1; 
     }
-  
 .side{
-      flex: 2;  
-
+      flex: 1.5;  
     }
-
 
 /*---------------------------- FOOTER -----------------------------*/
 footer {
