@@ -1,0 +1,343 @@
+/* ------------------ GLOBAL STYLING --------------------*/
+body {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: #333;}
+
+section {    
+  width: 80%;
+  max-width: 800px;
+  margin: auto;}
+
+.blue {
+  background: #103254 url(../img/ixdb_col.png) no-repeat top right;
+  padding: 3em 0;
+  }
+
+h1, h2, h3 {
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+h1 {font-size: 4em; margin-bottom: .3em;}
+h2 {font-size: 2.75em; margin: 1em 0}
+h3 {font-size: 1.90em; margin: 3em 0 1em 0}
+
+p {font-size: 1.25em;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  font-weight: 200;}
+
+header {
+  width: 80%;
+  max-width: 900px;
+  margin-left: 4em;
+  color: #fafafa;}
+
+header h1 { 
+  margin: 1em 0;
+  font-size: 5.25em;
+  font-weight: bold;
+  line-height: 1.2;
+  }
+header p {
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+.project h1 {
+  text-align: center;
+  padding: .3em 0 .1em 0}
+
+.bio {padding: 0; 
+  max-width: 1200px;}
+
+.connections {padding-bottom: 3em}
+
+.foliohead {margin: auto;
+  max-width: 900px;}
+ 
+.foliohead h2 { color: #103254}
+
+blockquote {
+  font-family: bely-display, sans-serif;
+  font-size: 2.75em;
+  line-height: 1.5;
+  hanging-punctuation: first;
+  text-indent: -0.44em;}
+
+blockquote cite {
+   font-size: 0.75em;}
+
+/*---------------- PORTFOLIO SECTION ------------------*/
+
+.portfolio h2 { max-width: 960px; margin: 3em auto;}
+.portfolio{
+  max-width: 960px;
+  margin: 3em auto;
+  padding: 40px 0;
+  display: grid;
+  
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+}
+ 
+.portfolio h1 {
+  text-align: center}
+
+li {
+  position: relative;}
+
+.portfolio-img {;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-title {
+  font-family: proxima-nova, sans-serif;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #fff
+}
+
+.portfolio-title:hover {
+  background: #333;
+  color: #fff
+}
+
+/*---------------- BACKGROUNDS ----------------*/
+.dark {
+    padding: 4em 0;
+    background: #103254;
+    color: #fafafa;}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background: #103254;
+  color: #fff;
+  height: 100px;
+  line-height: 1.5;}
+
+/*--------------------- STYLING LINKS -----------------*/
+a {
+  color: #439ff6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #103254;
+  border-bottom: 1px dotted;}
+
+.biog a {
+    color: #fafafa;
+    border-bottom: 1px dotted;
+  }
+  
+.biog a:hover {
+    color: #103254;
+}
+  
+.dark a {
+  color: rgb(42, 161, 197);
+  text-decoration: none;}
+
+.dark a:hover {
+  color: #fafafa;
+  border-bottom: 1px dotted;}
+
+.portfolio a {
+  color: #103254;
+  border-bottom: none;}
+
+.portfolio a:hover {
+  opacity: .8;}
+
+/*------------------- NAVIGATION ------------------*/
+nav {
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 90%;
+  background-color: #fff;
+  padding: 1em 0;
+  font-size: 0.85em;}
+
+nav ul {
+  text-align: right;
+  padding-right: 8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;}
+  
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  background: none;}
+
+nav a:link {
+  color: #439ff6;}
+
+nav a:visited {
+  color: #439ff6;}
+
+nav a:hover {
+  border-bottom: none;
+  color: #103254;
+  transition: all 0.3s ease-in-out; } 
+  
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: left;
+  padding-right: 30vw;
+}
+
+
+
+/*------------ FLEX NAV ----------------*/
+.flex-nav ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0;
+  display: flex;
+}
+.flex-nav li {
+flex: 2
+}
+
+.flex-nav .logo {
+  flex: 1;
+}
+
+
+
+
+/* ------------------- IMAGES -------------------- */
+img {
+  display: block;
+  margin: auto; 
+  max-width: 100%; }
+
+.bio {
+  width: 100vw;
+  background:#107ed6;
+  display: flex; 
+  flex-flow: row-reverse; 
+}
+.content{
+      flex: 1; 
+    }
+  
+.side{
+      flex: 2;  
+
+    }
+
+
+/*---------------------------- FOOTER -----------------------------*/
+footer {
+  text-align: center;
+  font-size: 0.707em;
+  padding: 2em 0 4em 0;
+  margin: auto;
+}
+
+.footer2 {
+  margin: auto;
+}
+
+.connections{
+  position: relative;
+  margin: 0 auto;
+}
+.connections ul{
+  margin: 0;
+  padding: 0;
+}
+.connections li{
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;  
+}
+.connections a:link{
+  border-bottom: none;
+}
+.connections img,
+.connections svg{
+  border: none;
+}
+.connections a:hover img,
+.connections a:hover svg{
+  border-bottom: none;}
+
+.connections svg {
+      margin: 2em auto;}
+
+.connections a:hover svg path {
+      fill: #333;
+      transition: all 0.2s ease-in-out;}
+
+footer .connections a:hover svg path {
+        fill:  rgb(62, 206, 250);
+        transition: all 0.2s ease-in-out;}
+
+
+.proceed {
+    text-align: center;
+    margin: 2em}
+
+.next-previous {
+          display: inline-block;
+          padding: 8px 15px;
+          background-color: #333;
+          color: #fafafa;
+          border-radius: 50%;
+          margin: 0 2em;}
+        
+.proceed a:link {border-bottom: none;}
+
+.proceed a:hover {
+          border-bottom: none;
+          background: #999;
+          transition: all 0.2s ease-in-out;}
+
+.work ul {  margin-left: 1em; 
+            font-size: 1.25em;
+            line-height: 1.5;
+            margin-bottom: 1em;
+            list-style-type: disc;
+        
+          }
+
+      
+@media only screen and (max-width: 600px) {
+  .bio {display:block;}
+ /* .side {padding: 2em 0;}*/
+  .biog h1{text-align:center;} 
+
+  section {    
+    width: 90%;
+    margin: auto;}
+
+header {
+      width: 90%;
+      margin-left: .5em;
+      }
+
+header h1 {font-size: 3.25em;}
+header p {font-size: 1.25em;}
+
+}
+
+
+
+
+
+
