@@ -68,6 +68,7 @@ blockquote cite {
 
 /*---------------- PORTFOLIO SECTION ------------------*/
 
+
 .portfolio h2 { max-width: 960px; margin: 3em auto;}
 .portfolio{
   max-width: 960px;
@@ -193,7 +194,8 @@ nav a:hover {
   padding-right: 30vw;
 }
 
-
+.project {margin 2em 0;
+  text-align: center}
 
 /*------------ FLEX NAV ----------------*/
 .flex-nav ul {
