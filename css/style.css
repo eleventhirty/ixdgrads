@@ -236,7 +236,8 @@ img {
 .examples {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));}
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding-bottom: 2em;}
 
 .side {margin-top: .45em}
 

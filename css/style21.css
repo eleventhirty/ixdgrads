@@ -50,8 +50,7 @@ header p {
   text-align: center;
   padding: .3em 0 .1em 0}
 
-.bio {padding: 0; 
-  max-width: 1200px;}
+.bio {padding: 0;}
 
 .connections {padding-bottom: 3em}
 
@@ -224,18 +223,13 @@ img {
   margin: auto; 
   max-width: 100%; }
 
-.biocolour {padding: 3em 0}
+.biocontent {padding: 3em 0}
 
-.bio {
-  display: flex; 
-  flex-flow: row-reverse; 
-}
-.content{
-      flex: 1; 
-    }
-.side{
-      flex: 1.5;  
-    }
+.examples {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding-bottom: 2em;}
 
 /*---------------------------- FOOTER -----------------------------*/
 footer {
